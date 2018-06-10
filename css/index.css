@@ -112,4 +112,88 @@ p{
      font-size: 120%;
 }
 
+.price-area{
+   min-height: 100vh;
+   padding-top: 150px;
+   padding-bottom: 150px;
+}
+.price-area .price-header{
+    text-align: center;
+}
 
+.price-area .price-header>.title{
+    font-size: 300%;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.price-card-container{
+    padding-top: 70px;
+}
+.price-area .price-header>.description{
+    line-height: normal;
+}
+
+.price-card{
+   position: relative;
+    width: 100%;
+    min-height: 500px;
+    margin-top: 10px;
+    box-shadow: 1.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+     transition: all ease 1s;
+}
+
+.price-card-head{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    padding-top: 30px;
+    background-color: rebeccapurple;
+   transition: all ease 1s;
+}
+.price-card-head >.pg-name{
+    padding-left: 20px;
+    font-size: 100%;
+     color: rgba(255,255,255,0.9);
+}
+.price-card-head >.pg-name>span{
+    font-size: 200%;
+    font-weight: 600;
+}
+.price-card-head >.pg-price{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 200%;
+    font-weight: 700;
+     color: rgba(255,255,255,0.9);
+}
+
+.price-card-body{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.price-card-body >ul{
+    padding-left: 20px;
+}
+
+.price-card-body >ul>li{
+    color: rgba(0,0,0,0.6);
+    font-weight: 600;
+    font-size: 120%;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+.price-card:hover{
+    margin-top: 5px;
+     transition: all ease 1s;
+     box-shadow: 1.213px 21.213px 30px 0px rgba(0, 0, 0, 0.3);
+}
+
+.price-card:hover>.price-card-head{
+    background-color: rgba(255, 56, 56,1.0);
+    transition: all ease 1s;
+} 
