@@ -48,8 +48,8 @@ a, a:focus, a:hover {
   outline: 0;
 }
 .logo{
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 .default-header {
   position: absolute;

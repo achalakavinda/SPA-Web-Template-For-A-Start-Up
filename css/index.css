@@ -11,6 +11,21 @@ p{
     margin-top: -100px;
     padding: 10px;
 }
+
+.about-area{
+   padding-top: 150px;
+   padding-bottom: 150px;
+}
+
+.about-detail-header{
+    padding: 10px;
+}
+.about-detail-header>.title{
+     font-size: 300%;
+    line-height: normal;
+    font-weight: 600;
+    transition: all ease 1s;
+}
 .service-area{
    padding-top: 150px;
    padding-bottom: 150px;
@@ -21,10 +36,25 @@ p{
 .service-header{
     text-align: center;
     padding: 5px;
+    
+}
+
+.service-area:hover .service-header > .title{
+    color: white;
+    font-size: 320%;
+    transition: all ease 0.5s;
 }
 .service-header > .title{
     font-size: 300%;
     font-weight: 600;
+    color: rgba(255,255,255,0.8);
+    transition: all ease 1s;
+    line-height: normal;
+}
+
+.service-header >  .description{
+   color: rgba(255,255,255,0.8);
+    line-height: normal;
 }
 
 .card-container{
@@ -79,3 +109,12 @@ p{
     color: rgba(0,0,0,0.6);
      font-size: 120%;
 }
+
+.polygon-container {
+ position: relative;
+ width: 100%;
+  width: 100%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
