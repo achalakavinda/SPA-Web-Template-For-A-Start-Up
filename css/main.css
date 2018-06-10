@@ -1,0 +1,138 @@
+body {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  position: relative;
+  color: white;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+select {
+  display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+iframe {
+  border: 0;
+}
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: 0;
+}
+.logo{
+    width: 120px;
+    height: 80px;
+}
+.default-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  background-color: #fff;
+  width: 100% !important;
+  box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    height: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+  }
+}
+
+.navbar-nav a {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000;
+  padding: 20px;
+}
+
+.navbar-nav a:hover {
+  color: #8490ff;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  .navbar-nav a {
+    padding: 0;
+  }
+  .navbar-nav li {
+    padding: 15px 0;
+  }
+}
+
+  .navbar-expand-lg {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+
+@media (max-width: 767px) {
+  .banner-area .fullscreen {
+    height: 700px !important;
+  }
+}
+
+.banner-area .overlay {
+  background: #000;
+  opacity: .4;
+}
+
+.relative {
+  position: relative;
+}
+
+.p1-gradient-bg, .primary-btn, .primary-btn2:hover, .header-btn, .donut-widget[data-chart-instance="1"] .donut-bite[data-segment-index="0"].large::after, .donut-widget[data-chart-instance="2"] .donut-bite[data-segment-index="0"].large::after, .donut-widget[data-chart-instance="3"] .donut-bite[data-segment-index="0"].large::after, .testimonial-area .overlay-bg, .footer-social a:hover, .single-footer-widget .bb-btn, .generic-banner {
+  background-image: -moz-linear-gradient(0deg, #908ced 0%, #b56fe8 100%);
+  background-image: -webkit-linear-gradient(0deg, #908ced 0%, #b56fe8 100%);
+  background-image: -ms-linear-gradient(0deg, #908ced 0%, #b56fe8 100%);
+}
+
+.testimonial-area .overlay-bg {
+  opacity: .6;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.banner-area{
+    min-height: 100vh;
+}
