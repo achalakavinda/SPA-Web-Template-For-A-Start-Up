@@ -1,7 +1,6 @@
 #sky {
     width: 100%;
     position: relative;
-    z-index: 1;
   -webkit-perspective: 400px;
           perspective: 400px;
   -webkit-filter: drop-shadow(0px 150px 10px rgba(0, 0, 0, 0.2));
