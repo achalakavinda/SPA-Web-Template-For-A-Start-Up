@@ -197,3 +197,80 @@ p{
     background-color: rgba(255, 56, 56,1.0);
     transition: all ease 1s;
 } 
+
+.contact-area{
+   min-height: 100vh;
+   padding-top: 200px;
+   padding-bottom: 150px;
+}
+
+.contact-description-container{
+    
+}
+
+.c-d-c-header{
+    color: rgba(0,0,0,0.8);
+}
+
+.contact-title-sm{
+    font-weight: 600;
+    font-size: 120%;
+    color: rgba(0,0,0,0.5);
+}
+.contact-title-lg{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 250%;
+    color: rgba(0,0,0,0.5);
+}
+
+.contact-desc-body{
+    margin-top: 20px;
+    color: rgba(0,0,0,0.6);
+}
+
+
+.contact-form {
+	padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form textarea {
+	width: 100%;
+	background: none;
+	border:  none;
+	border-bottom: 1px  solid rgba(0,0,0,0.6);
+	color:  rgba(0,0,0,0.6);
+	font-size: 14px;
+	padding: 5px 0 20px;
+	margin-bottom: 20px;
+}
+
+.contact-form textarea {
+	height: 130px;
+	padding-bottom: 10px;
+	margin-bottom: 35px;
+}
+
+.contact-form ::-webkit-input-placeholder {
+	font-style: italic;
+	color:  color: rgba(0,0,0,0.6);
+}
+
+.contact-form :-ms-input-placeholder {
+	font-style: italic;
+	color:  color: rgba(0,0,0,0.6);
+}
+
+.contact-form ::-ms-input-placeholder {
+	font-style: italic;
+	color:  color: rgba(0,0,0,0.6);
+}
+
+.contact-form ::placeholder {
+	font-style: italic;
+	color:  color: rgba(0,0,0,0.6);
+}
