@@ -136,3 +136,71 @@ a, a:focus, a:hover {
 .banner-area{
     min-height: 100vh;
 }
+
+.site-btn {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+	min-width: 135px;
+	font-weight: 600;
+	padding: 18px 10px 20px;
+	color: #222121;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	border-top: 2px solid #222121;
+	border-bottom: 2px solid #222121;
+}
+
+.site-btn:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 2px;
+	bottom: 2px;
+	left: 0;
+	background: #222121;
+}
+
+.site-btn.light {
+	color: #fff;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.site-btn.light:after {
+	background: #fff;
+}
+
+.site-btn.light:hover {
+	color: #fff;
+}
+
+.site-btn:hover {
+	color: #222121;
+}
+
+.site-btn.btn-two {
+	border-left: 2px solid #222121;
+	border-right: 2px solid #222121;
+}
+
+.site-btn.btn-three {
+	padding: 19px 10px 19px;
+}
+
+.site-btn.btn-three:after {
+	display: none;
+}
+
+.site-btn.btn-four {
+	padding: 19px 10px 19px;
+	border-left: 2px solid #222121;
+	border-right: 2px solid #222121;
+}
+
+.site-btn.btn-four:after {
+	display: none;
+}
