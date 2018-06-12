@@ -29,9 +29,20 @@ p{
     transition: all ease 1s;
 }
 .service-area{
-   padding-top: 150px;
-   padding-bottom: 150px;
+   position: relative;
+   
    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.service-area >.container{
+    padding-top: 150px;
+   padding-bottom: 150px;
+}
+
+#partical{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .service-header{
